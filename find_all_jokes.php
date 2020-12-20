@@ -23,7 +23,7 @@
     echo '<div id="accordion">';
 
     //Gettting data from the database
-    $sql_statment = "SELECT Question, Answer, user_table.Username FROM Jokes_Table JOIN user_table on user_table.ID = jokes_table.User_ID";
+    $sql_statment = "SELECT Question, Answer, user_table.Username FROM jokes_table JOIN user_table on user_table.ID = jokes_table.User_ID";
     $rows = $mysqli->query($sql_statment);
 
     if($rows->num_rows > 0){
