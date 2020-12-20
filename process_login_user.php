@@ -4,6 +4,7 @@
 
 <h3>Login User</h3>
 <div style="text-align: center">
+<a href="index.php">Home</a>
 <?php
 
 session_start();
@@ -45,5 +46,6 @@ echo '<a href="login_user.php">Login Page</a>';
 ?>
 <br>
 <a href="index.php">Home Page</a>
+	
 
 </div>
