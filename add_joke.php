@@ -38,7 +38,7 @@ if(!$_SESSION['username']){
     $qustion = addslashes($question);
     $answer = addslashes($answer);
 
-    $sql_statment = $mysqli->prepare("INSERT INTO `test`.`jokes_table` (`ID`, `Question`, `Answer`, `User_ID`) VALUES (NULL, ?, ?, ?);");
+    $sql_statment = $mysqli->prepare("INSERT INTO `vkac8ptr4kpcx1ro`.`jokes_table` (`ID`, `Question`, `Answer`, `User_ID`) VALUES (NULL, ?, ?, ?);");
     $sql_statment->bind_param("ssi", $question, $answer, $userid);
     
     $sql_statment->execute();
