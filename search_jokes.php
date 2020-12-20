@@ -22,7 +22,7 @@
     $keywordAny = "%" . addslashes($keyword) . "%";
 
     //Searching Function
-    $sql_statment = $mysqli->prepare("SELECT Question, Answer, Username FROM Jokes_Table JOIN user_table on user_table.ID = jokes_table.User_ID WHERE jokes_table.Question LIKE ?");
+    $sql_statment = $mysqli->prepare("SELECT Question, Answer, Username FROM jokes_table JOIN user_table on user_table.ID = jokes_table.User_ID WHERE jokes_table.Question LIKE ?");
     $sql_statment->bind_param("s", $keywordAny);
     
     $sql_statment->execute();
