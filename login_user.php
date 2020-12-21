@@ -50,7 +50,7 @@
 		<label class="col-md-4 control-label" for="user_submit"></label>
 		<div class="col-md-4">
 			<button id="user_submit" name="user_submit" class="btn btn-primary">Login</button>
-			<a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=139281538940-arh29cscgqk2vic01ackiphugqe6m2lr.apps.googleusercontent.com&amp;response_type=code&amp;scope=openid%20email&amp;redirect_uri=http%3A%2F%2F256stuff.com%2Fgray%2Fdocs%2Foauth2.0%2FcomeBack.cgi&amp;state=this-should-be-some-generated-secret-token" target="_blank" style="height: 25px; background: #4E9CAF; text-decoration : none; padding: 10px; text-align: center; border-radius: 5px; color: white; font-weight: bold;">Click here to login with Google</a>
+			<a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=139281538940-arh29cscgqk2vic01ackiphugqe6m2lr.apps.googleusercontent.com&amp;response_type=code&amp;scope=openid%20email&amp;redirect_uri=http%3A%2F%2F256stuff.com%2Fgray%2Fdocs%2Foauth2.0%2FcomeBack.cgi&amp;state=this-should-be-some-generated-secret-token" target="_blank" style="height: 25px; background: #4E9CAF; text-decoration : none; padding: 10px; text-align: center; border-radius: 5px; color: white; font-weight: bold;">Third Party Google OAuth Sample</a>
 		</div>
 		</div>
 
